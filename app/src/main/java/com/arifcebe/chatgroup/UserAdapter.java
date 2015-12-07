@@ -63,7 +63,7 @@ public class UserAdapter extends BaseAdapter {
         holder.no.setText(""+(no+1));
         holder.name.setText(user.getFullName());
         holder.year.setText(String.valueOf(user.getBirthYear()));
-        Log.d("adapter","year "+user.getBirthYear()+" "+user.getFullName());
+        Log.d("adapter","year "+user.getBirthYear()+" | "+user.getFullName());
 
         return convertView;
     }
